@@ -56,7 +56,12 @@ public class MCreatorTemplateblock extends structure_generator.ModElement {
 		@SideOnly(Side.CLIENT)
 		@Override
 		public BlockRenderLayer getBlockLayer() {
-			return BlockRenderLayer.SOLID;
+			return BlockRenderLayer.TRANSLUCENT;
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 
 		@Override

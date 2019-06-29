@@ -610,7 +610,7 @@ Class Start: net.mcreator.structure_generator.MCreatorStructureblockOnBlockRight
 Class End  : net.mcreator.structure_generator.MCreatorStructureblockOnBlockRightClicked
 endProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockRightClicked.java"
 
-startProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java" md5: 50398764502016f10505ce65bb8eacc2
+startProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java" md5: b257ca1b7d915062fee07c709c0be225
 @|net\mcreator\structure_generator\MCreatorTemplateblock.java|8|40|net.mcreator.structure_generator|package|net.mcreator.structure_generator|(file)
 Class Start: net.mcreator.structure_generator.MCreatorTemplateblock
    @|net\mcreator\structure_generator\MCreatorTemplateblock.java|825|846|MCreatorTemplateblock|class|net.mcreator.structure_generator.MCreatorTemplateblock
@@ -681,40 +681,47 @@ Class Start: net.mcreator.structure_generator.MCreatorTemplateblock
          @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1904|1920|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer
          @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1921|1934|getBlockLayer|method|net.minecraft.block.Block|getBlockLayer|()Lnet/minecraft/util/BlockRenderLayer;
          @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1949|1965|BlockRenderLayer|class|net.minecraft.util.BlockRenderLayer
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1966|1971|SOLID|field|net.minecraft.util.BlockRenderLayer|SOLID
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1966|1977|TRANSLUCENT|field|net.minecraft.util.BlockRenderLayer|TRANSLUCENT
       Method End: getBlockLayer()Lnet/minecraft/util/BlockRenderLayer;
+      Method Start: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2038|2043|state|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z|state|0
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1987|1995|Override|class|java.lang.Override
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2013|2025|isOpaqueCube|method|net.minecraft.block.Block|isOpaqueCube|(Lnet/minecraft/block/state/IBlockState;)Z
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2026|2037|IBlockState|class|net.minecraft.block.state.IBlockState
+      Method End: isOpaqueCube(Lnet/minecraft/block/state/IBlockState;)Z
       Method Start: onBlockAdded(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2023|2028|world|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|world|0
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2039|2042|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2056|2061|state|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|1981|1989|Override|class|java.lang.Override
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2004|2016|onBlockAdded|method|net.minecraft.block.Block|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2017|2022|World|class|net.minecraft.world.World
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2030|2038|BlockPos|class|net.minecraft.util.math.BlockPos
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2044|2055|IBlockState|class|net.minecraft.block.state.IBlockState
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2074|2086|onBlockAdded|method|net.minecraft.block.Block|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2087|2092|world|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|world|0
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2094|2097|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2099|2104|state|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2118|2121|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2122|2126|getX|method|net.minecraft.util.math.Vec3i|getX|()I
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2141|2144|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2145|2149|getY|method|net.minecraft.util.math.Vec3i|getY|()I
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2164|2167|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2168|2172|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2179|2184|Block|class|net.minecraft.block.Block
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2208|2225|java.util.HashMap|class|java.util.HashMap
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2226|2232|String|class|java.lang.String
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2234|2240|Object|class|java.lang.Object
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2263|2280|java.util.HashMap|class|java.util.HashMap
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2290|2321|MCreatorTemplateblockBlockAdded|class|net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded
-         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2322|2338|executeProcedure|method|net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded|executeProcedure|(Ljava/util/HashMap;)V
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2114|2119|world|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|world|0
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2130|2133|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2147|2152|state|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2072|2080|Override|class|java.lang.Override
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2095|2107|onBlockAdded|method|net.minecraft.block.Block|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2108|2113|World|class|net.minecraft.world.World
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2121|2129|BlockPos|class|net.minecraft.util.math.BlockPos
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2135|2146|IBlockState|class|net.minecraft.block.state.IBlockState
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2165|2177|onBlockAdded|method|net.minecraft.block.Block|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2178|2183|world|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|world|0
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2185|2188|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2190|2195|state|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|state|2
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2209|2212|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2213|2217|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2232|2235|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2236|2240|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2255|2258|pos|param|net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom|onBlockAdded|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V|pos|1
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2259|2263|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2270|2275|Block|class|net.minecraft.block.Block
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2299|2316|java.util.HashMap|class|java.util.HashMap
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2317|2323|String|class|java.lang.String
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2325|2331|Object|class|java.lang.Object
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2354|2371|java.util.HashMap|class|java.util.HashMap
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2381|2412|MCreatorTemplateblockBlockAdded|class|net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded
+         @|net\mcreator\structure_generator\MCreatorTemplateblock.java|2413|2429|executeProcedure|method|net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded|executeProcedure|(Ljava/util/HashMap;)V
       Method End: onBlockAdded(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V
    Class End  : net.mcreator.structure_generator.MCreatorTemplateblock.BlockCustom
 Class End  : net.mcreator.structure_generator.MCreatorTemplateblock
 endProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java"
 
 startProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java" md5: d03b89b581651fceca6d73c3315f0590
+Cache Hit!
 @|net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java|8|40|net.mcreator.structure_generator|package|net.mcreator.structure_generator|(file)
 Class Start: net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded
    @|net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java|83|114|MCreatorTemplateblockBlockAdded|class|net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded
@@ -736,6 +743,7 @@ Class End  : net.mcreator.structure_generator.MCreatorTemplateblockBlockAdded
 endProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java"
 
 startProcessing "net\mcreator\structure_generator\structure_generator.java" md5: e60c35907a150045ff79ee1b874af419
+Cache Hit!
 @|net\mcreator\structure_generator\structure_generator.java|8|40|net.mcreator.structure_generator|package|net.mcreator.structure_generator|(file)
 Class Start: net.mcreator.structure_generator.structure_generator
    @|net\mcreator\structure_generator\structure_generator.java|1630|1633|Mod|class|net.minecraftforge.fml.common.Mod

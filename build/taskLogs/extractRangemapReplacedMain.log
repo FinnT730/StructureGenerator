@@ -28,13 +28,15 @@ startProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockR
 Cache Hit!
 endProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockRightClicked.java"
 
-startProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java" md5: 50398764502016f10505ce65bb8eacc2
+startProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java" md5: b257ca1b7d915062fee07c709c0be225
 endProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java"
 
 startProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java" md5: d03b89b581651fceca6d73c3315f0590
+Cache Hit!
 endProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java"
 
 startProcessing "net\mcreator\structure_generator\structure_generator.java" md5: e60c35907a150045ff79ee1b874af419
+Cache Hit!
 endProcessing "net\mcreator\structure_generator\structure_generator.java"
 
 startProcessing "net\mcreator\structure_generator\structure_generatorVariables.java" md5: 96c8ae55dd5ff8f83c40d188177ee0ac
