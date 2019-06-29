@@ -59,6 +59,8 @@ public class structure_generator implements IFuelHandler, IWorldGenerator {
 		elements.add(new MCreatorStructureblock(this));
 		elements.add(new MCreatorStructureblockOnBlockRightClicked(this));
 		elements.add(new MCreatorSavestructure(this));
+		elements.add(new MCreatorTemplateblockBlockAdded(this));
+		elements.add(new MCreatorTemplateblock(this));
 	}
 
 	@Override

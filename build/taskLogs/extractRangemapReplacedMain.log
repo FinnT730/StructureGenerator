@@ -1,5 +1,5 @@
 Symbol range map extraction starting
-Processing 9 files
+Processing 11 files
 startProcessing "net\mcreator\structure_generator\ClientProxystructure_generator.java" md5: 95efc1f3826bf6ad44a925d1a2f474b6
 Cache Hit!
 endProcessing "net\mcreator\structure_generator\ClientProxystructure_generator.java"
@@ -28,8 +28,13 @@ startProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockR
 Cache Hit!
 endProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockRightClicked.java"
 
-startProcessing "net\mcreator\structure_generator\structure_generator.java" md5: ce2df0ec4cd027d1f2126502cc9db12f
-Cache Hit!
+startProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java" md5: 50398764502016f10505ce65bb8eacc2
+endProcessing "net\mcreator\structure_generator\MCreatorTemplateblock.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java" md5: d03b89b581651fceca6d73c3315f0590
+endProcessing "net\mcreator\structure_generator\MCreatorTemplateblockBlockAdded.java"
+
+startProcessing "net\mcreator\structure_generator\structure_generator.java" md5: e60c35907a150045ff79ee1b874af419
 endProcessing "net\mcreator\structure_generator\structure_generator.java"
 
 startProcessing "net\mcreator\structure_generator\structure_generatorVariables.java" md5: 96c8ae55dd5ff8f83c40d188177ee0ac
