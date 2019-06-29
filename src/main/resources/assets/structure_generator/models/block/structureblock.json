@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "structure_generator:blocks/structure_block_wip",
+    "up": "structure_generator:blocks/structure_block_wip",
+    "north": "structure_generator:blocks/structure_block_wip",
+    "east": "structure_generator:blocks/structure_block_wip",
+    "south": "structure_generator:blocks/structure_block_wip",
+    "west": "structure_generator:blocks/structure_block_wip",
+    "particle": "structure_generator:blocks/structure_block_wip"
+  }
+}

@@ -1,0 +1,38 @@
+Symbol range map extraction starting
+Processing 9 files
+startProcessing "net\mcreator\structure_generator\ClientProxystructure_generator.java" md5: 95efc1f3826bf6ad44a925d1a2f474b6
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\ClientProxystructure_generator.java"
+
+startProcessing "net\mcreator\structure_generator\CommonProxystructure_generator.java" md5: 8ff70a94e121de018ce8a7f77eb14e0f
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\CommonProxystructure_generator.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorCornerpeace.java" md5: cf2680be1042b5b0089b2185eca1f03d
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\MCreatorCornerpeace.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorCornerpeaceBlockAdded.java" md5: b37b4f846681cac89d80ea179a0e2f95
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\MCreatorCornerpeaceBlockAdded.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorSavestructure.java" md5: 65eb8dcd426345fb7f67107d37bcd226
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\MCreatorSavestructure.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorStructureblock.java" md5: e06fc5ea014004ed656107270189bd5c
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\MCreatorStructureblock.java"
+
+startProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockRightClicked.java" md5: 641bda4e03b8f903497bfa8ca5224a75
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\MCreatorStructureblockOnBlockRightClicked.java"
+
+startProcessing "net\mcreator\structure_generator\structure_generator.java" md5: ce2df0ec4cd027d1f2126502cc9db12f
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\structure_generator.java"
+
+startProcessing "net\mcreator\structure_generator\structure_generatorVariables.java" md5: 96c8ae55dd5ff8f83c40d188177ee0ac
+Cache Hit!
+endProcessing "net\mcreator\structure_generator\structure_generatorVariables.java"
+
